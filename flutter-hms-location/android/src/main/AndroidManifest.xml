@@ -6,6 +6,8 @@
   <application>
     <service
       android:name="com.huawei.location.service.BackGroundService"
-      android:foregroundServiceType="location" />
+      android:foregroundServiceType="location" 
+      android:exported="false"
+      />
   </application>
 </manifest>
